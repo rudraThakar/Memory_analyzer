@@ -1,0 +1,6 @@
+# Compiled binaries
+/proc_memscan
+
+# Build artifacts
+*.o
+*.out
