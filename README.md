@@ -7,6 +7,19 @@ A high-performance Linux tool for analyzing process memory usage by scanning `/p
 
 ![Sample Output](./assets/proc_scan.png) 
 
+## What is does?
+- Lists all running processes (/proc).
+
+- For each process, reads /proc/<pid>/maps.
+
+- Identifies memory segments: [heap], [stack], file-mapped, anonymous.
+
+- Spawns multiple threads to analyze PIDs in parallel.
+
+- Prints summary
+
+
+
 ## Features 
 - **Parallel scanning** (2.8x faster than single-threaded)
 - **Memory categorization**: Heap, Stack, Mmap (file/anon)
