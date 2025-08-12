@@ -29,7 +29,7 @@ A high-performance Linux tool for analyzing process memory usage by scanning `/p
 
 ## Installation ⚙️
 ```bash
-git clone https://github.com/yourusername/proc_memscan.git
-cd proc_memscan
+git clone https://github.com/rudraThakar/Memory_analyzer.git
+cd Memory_analyzer
 make
-./proc_memscan
+./Memory_analyzer
